@@ -7,8 +7,20 @@
 #header
 {
 	background: #ccc;
-	padding: 20px;
+	padding: 200px;
+    border-radius: 40px;
+    background-color: firebrick;
+    color: white;
+    font-size: 40px;
+    transition: 2s all;
 }
+
+#header:hover {
+    background-color: white;
+    color: firebrick;
+    transition: 2s all;
+}
+
 
 #header h1 { margin: 0; }
 
@@ -58,7 +70,19 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+    
+    background-color: gainsboro;
+    transition: all 1s;
 }
+
+#edito:hover {
+    transform: scale(1.05);
+    transition: all 1s;
+    
+}
+
+
+
 
 #edito h2
 {
@@ -83,6 +107,15 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+    
+    transition: 1s all;
+    background-color: darkgrey;
+}
+
+#news:hover {
+    transform: scale(1.05);
+    transition: all 1s;
+    
 }
 
 #footer
@@ -93,3 +126,7 @@
 	padding: 20px;
 	height: 1%;
 }
+
+/*------------------------------*/
+
+
